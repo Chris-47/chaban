@@ -12,6 +12,7 @@ class App extends Component {
         <div className="">
           <Route exact path="/" component={Home} />
           <Route exact path="/:id" component={Detail} />
+          <Route path='/not_found' exact={true} component={My404Page} />
         </div>
       </Router>
     );

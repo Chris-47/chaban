@@ -24,7 +24,9 @@ class Home extends Component {
       });
   }
 
-  
+  handleSearch = (searchResult) => {
+  this.setState({data: searchResult});
+  }
 
   render() {
 
